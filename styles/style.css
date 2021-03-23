@@ -259,24 +259,29 @@ div.panel {
 .hours {
     text-align:center;
     padding:100px 0;
-	background:url('../img/workout-1.jpg');
+	background:url('../images/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+    font-weight: 600;
+
 }
 .parallax--bg{
 	transition: initial;
 }
 .hours h2{
+    color:#333;
     font-size:285%;
-    color:#fff;
 	font-weight:700;
 }
 .hours p{
     font-size:255%;
-    color:#fff;
+    color:#333;
 	font-weight:700;
+}
+.hours hr {
+    color:#333;
 }
 /*================
    Location-Area
